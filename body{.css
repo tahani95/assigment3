@@ -1,0 +1,58 @@
+body{
+    background-image: url("background.jpg");
+  
+}
+form{
+    width:50%;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-top: 50px ;
+    margin-right: 25%;
+    margin-left: 25%;
+   
+}
+#pic{
+    width: 100px;
+    margin-bottom: 10px;
+   
+}
+input{
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    border:none;
+    border-bottom: 1px solid rgb(255,255,255, 0.5);
+}
+input[type="password"]:focus{
+    background-color: white;
+}
+input[type="email"]:focus{
+    background-color: white;
+}
+input[type="submit"]:hover{
+    background-color:white;
+  color:black;
+    
+}
+ a{
+    padding: 5px;
+    opacity: 0.6;
+    color: gray;
+}
+ a:hover{
+    opacity: 1;
+}
+input[type="submit"]{
+    border:1px solid gray;
+    color:white;
+    margin-bottom:0px;
+}
+p{
+   margin: 0px;
+    text-align: center;
+    
+}
